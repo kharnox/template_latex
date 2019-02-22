@@ -1,0 +1,58 @@
+\documentclass[a4paper]{book}
+
+%% Includes
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {./pictures/} }
+
+%% Removing the Chapter header
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+%% maketitle
+\title{Default Title}
+\author{Chaidron Nicolas}
+\date{\today}
+
+%% Start of document
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter*{Abstract}
+
+\chapter{Introduction}
+
+\chapter{Chapter 1}
+
+\input{chapter1/introduction}
+\input{chapter1/section1}
+\input{chapter1/section2}
+
+\chapter{Chapter 2}
+
+\input{chapter2/introduction}
+\input{chapter2/section1}
+\input{chapter2/section2}
+
+\chapter{Conclusion}
+
+\listoffigures % List of figures
+ 
+\listoftables % List of tables
+
+\bibliography{biblio} 
+
+\appendix
+
+\chapter{Appendix 1}
+
+\chapter{Appendix 2}
+
+\end{document}
