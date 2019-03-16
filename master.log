@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.1.20)  22 JAN 2019 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.11)  16 MAR 2019 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **master.tex
 (./master.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2018-12-01>
 (/usr/share/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -30,9 +30,9 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count89
 \float@exts=\toks14
-\float@box=\box26
+\float@box=\box27
 \@float@everytoks=\toks15
-\@floatcapt=\box27
+\@floatcapt=\box28
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -53,7 +53,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen104
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box28
+\ttl@box=\box29
 \beforetitleunit=\skip44
 \aftertitleunit=\skip45
 \ttl@plus=\dimen105
@@ -83,7 +83,7 @@ LaTeX Font Info:    ... okay on input line 22.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen110
-\scratchbox=\box29
+\scratchbox=\box30
 \nofMPsegments=\count91
 \nofMParguments=\count92
 \everyMPshowfont=\toks18
@@ -170,13 +170,7 @@ Overfull \vbox (6.94444pt too high) has occurred while \output is active []
 
 ]
 Chapter 2.
-(./chapter1/introduction.tex
-<./pictures/wallpaper.jpg, id=33, 6022.5pt x 4015.0pt>
-File: ./pictures/wallpaper.jpg Graphic file (type jpg)
-<use ./pictures/wallpaper.jpg>
-Package pdftex.def Info: ./pictures/wallpaper.jpg  used on input line 3.
-(pdftex.def)             Requested size: 452.9679pt x 301.96971pt.
-) (./chapter1/section1.tex) (./chapter1/section2.tex) [9 <./pictures/wallpaper.jpg>]
+(./chapter1/introduction.tex) (./chapter1/section1.tex) (./chapter1/section2.tex) [9]
 Overfull \vbox (6.94444pt too high) has occurred while \output is active []
 
  [10
@@ -229,18 +223,18 @@ Overfull \vbox (6.94444pt too high) has occurred while \output is active []
 Appendix B.
 [21] (./master.aux) ) 
 Here is how much of TeX's memory you used:
- 1926 strings out of 492639
- 26431 string characters out of 6135497
- 91022 words of memory out of 5000000
- 5778 multiletter control sequences out of 15000+600000
+ 1917 strings out of 492616
+ 26263 string characters out of 6135177
+ 91496 words of memory out of 5000000
+ 5795 multiletter control sequences out of 15000+600000
  7290 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,31p,273b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,31p,273b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on master.pdf (21 pages, 1122163 bytes).
+Output written on master.pdf (21 pages, 65325 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

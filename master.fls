@@ -1,4 +1,4 @@
-PWD /home/kharnox/Documents/LaTeX/default_template
+PWD /home/kharnox/Git/template_latex
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT master.tex
@@ -76,9 +76,6 @@ INPUT master.toc
 OUTPUT master.toc
 INPUT chapter1/introduction.tex
 INPUT chapter1/introduction.tex
-INPUT ./pictures/wallpaper.jpg
-INPUT ./pictures/wallpaper.jpg
-INPUT ./pictures/wallpaper.jpg
 INPUT chapter1/section1.tex
 INPUT chapter1/section1.tex
 INPUT chapter1/section2.tex
